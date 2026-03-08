@@ -6,11 +6,11 @@ for(var i = 0; i <= 20; i++){
     },1000)
 }
 
-for(var i = 0; i <= 20 ; i++){
+for(var i = 1; i <= 20 ; i++){
     (function(x){
         setTimeout(() => {
             console.log(x)
-        },1000 * i)
+        },1000 * x)
     })(i)
 }
 
